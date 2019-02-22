@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+PalkaphotoViewTool::Renderer.copyright 'Chris Palka', 'All rights reserved'
+```
 
 ## Development
 
