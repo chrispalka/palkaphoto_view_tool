@@ -25,6 +25,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
-  gem.files = `git ls-files`.split($/).reject { |fn| fn.start_with? "spec" }
-    ...
-end
+  gem.files          = `git ls-files`.split($/).reject { |fn| fn.start_with? "spec" }
+  end
